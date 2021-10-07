@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="width" table="x_561799_puzzle_tr_puzzle">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="missing_pieces" table="x_561799_puzzle_tr_puzzle">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Width (cm)</column_label>
+        <column_label>Missing pieces</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,14 +27,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>width</element>
+        <element>missing_pieces</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Decimal">decimal</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
-        <max_length>15</max_length>
+        <max_length>40</max_length>
         <name>x_561799_puzzle_tr_puzzle</name>
         <next_element/>
         <primary>false</primary>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-07 00:06:30</sys_created_on>
-        <sys_id>58cc416507033010c34ef7fc7c1ed040</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Width (cm)</sys_name>
+        <sys_created_on>2021-10-07 00:13:22</sys_created_on>
+        <sys_id>441ec16507033010c34ef7fc7c1ed06a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Missing pieces</sys_name>
         <sys_package display_value="Puzzle Tracker" source="x_561799_puzzle_tr">157ccde107033010c34ef7fc7c1ed0e6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Puzzle Tracker">157ccde107033010c34ef7fc7c1ed0e6</sys_scope>
-        <sys_update_name>sys_dictionary_x_561799_puzzle_tr_puzzle_width</sys_update_name>
+        <sys_update_name>sys_dictionary_x_561799_puzzle_tr_puzzle_missing_pieces</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-07 00:13:23</sys_updated_on>
+        <sys_updated_on>2021-10-07 00:13:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
